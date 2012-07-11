@@ -28,6 +28,7 @@
 #include "config.h"
 #include "linux_ioctl.h"
 #include "scan.h"
+#include "android_drv.h"
 
 #include "driver_cmd_wext.h"
 #include "driver_cmd_common.h"
