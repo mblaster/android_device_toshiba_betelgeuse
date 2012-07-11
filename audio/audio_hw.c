@@ -1956,7 +1956,7 @@ error_out:
 			if (x != NULL) {
 				char name[128];
 				const char* type;
-				mixer_ctl_get_name(x,name,sizeof(name));
+				mixer_ctl_get_name(x);
 				type = mixer_ctl_get_type_string(x);
 				ALOGD("#%d: '%s' [%s]",i,name,type);		
 			}
