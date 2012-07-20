@@ -1,4 +1,4 @@
-$(call inherit-product, device/toshiba/betelgeuse/full_betelgeuse.mk)
+$(call inherit-product, device/toshiba/betelgeuse/cm_betelgeuse.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)

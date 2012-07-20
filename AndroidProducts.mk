@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_betelgeuse.mk
+    $(LOCAL_DIR)/cm_betelgeuse.mk
